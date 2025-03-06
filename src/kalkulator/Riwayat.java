@@ -147,6 +147,7 @@ public class Riwayat extends javax.swing.JFrame {
 
         jPanel2.setPreferredSize(new java.awt.Dimension(400, 70));
 
+        jButton1.setFont(new java.awt.Font("Lucida Console", 1, 12)); // NOI18N
         jButton1.setText("Kembali");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,6 +155,7 @@ public class Riwayat extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setFont(new java.awt.Font("Lucida Console", 1, 12)); // NOI18N
         jButton2.setText("Hapus");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -170,7 +172,7 @@ public class Riwayat extends javax.swing.JFrame {
                 .addComponent(jButton1)
                 .addGap(36, 36, 36)
                 .addComponent(jButton2)
-                .addContainerGap(121, Short.MAX_VALUE))
+                .addContainerGap(112, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -179,7 +181,7 @@ public class Riwayat extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2))
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(28, Short.MAX_VALUE))
         );
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.PAGE_END);
